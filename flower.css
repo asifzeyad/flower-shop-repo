@@ -172,69 +172,7 @@ main{
 }
 
 /*-------------------- footer style part -------------------*/
-footer{
-    
- }
-.footer{
-    text-align: center;
-    width: 100%;
-    height: 530px;
-    background-image: linear-gradient(rgba(147, 158, 160, 0.7), rgba(0, 0, 0, .05)), url(./assets/news-letter-bg.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    margin-top: 120px;
-}
-.footer-banner{
-    width: 90%;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-} 
-#input-place{
-    width: 730px;
-    height: 50px;
-}
-input {
-    padding-left: 15px;
-    border: none;
-}
-#btn{
-    height: 50px;
-    width: 180px;
-    border: none;
-    background-color: #E95A08;
-    color: white;
-    font-weight: 400;
-}
 
-.footer-content{
-    margin: 50px 16px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 110px;
-    align-items: ;
-}
-.footer-menu ul li {
-    display: block;
-    color: #8987A1;
-    margin: 15px 0;
-
-}
-.link-txt{
-    margin: 5px 0;
-}
-.footer-link{
-    display: flex;
-    justify-content: space-between;
-}
-.footer-link img{
-    width: 45px;
-    height: 45px;
-}
 
 /*------------------- responsive media query style ---------------*/
 @media screen and (max-width: 576px){
